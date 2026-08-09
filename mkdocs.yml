@@ -1,0 +1,71 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+site_name: Lec Notes
+site_description: 课程学习笔记与讲座转录
+site_url: https://lodpixel.github.io/Lec-Notes/
+repo_url: https://github.com/Lodpixel/Lec-Notes
+repo_name: Lodpixel/Lec-Notes
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: zh
+  font: false
+  features:
+    - navigation.sections
+    - navigation.footer
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换至深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切换至浅色模式
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - md_in_html
+  - tables
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - 首页: index.md
+  - AI Infra 系列讲座:
+      - 1.1 CUDA Programming Model: lectures/1-1-cuda-programming-model.md
+      - 1.2 Triton/TileLang Tile Level Programming: lectures/1-2-triton-tilelang.md
+      - 2.1 Memory Abstraction & Hierarchy: lectures/2-1-memory-abstraction.md
+      - 2.2 FP32 GEMM Quick Walkthrough: lectures/2-2-fp32-gemm.md
+      - W.1 Parallel Programming with TileLang: lectures/w-1-parallel-programming-tilelang.md
+      - 3 Tensor Core：从 mma.sync 到 tcgen05: lectures/3-tensor-core.md
+
+copyright: 内容版权归原讲者及原发布方所有；本站整理内容仅供学习交流。

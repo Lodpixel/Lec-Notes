@@ -1,0 +1,9 @@
+.DS_Store
+.venv/
+.cache/
+__pycache__/
+site/
+course-lecture-builder/
+*.m4a
+*.mp4
+*.mp3
