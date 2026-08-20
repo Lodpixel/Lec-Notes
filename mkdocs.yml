@@ -68,5 +68,6 @@ nav:
       - W.1 Parallel Programming with TileLang: lectures/w-1-parallel-programming-tilelang.md
       - 3 Tensor Core：从 mma.sync 到 tcgen05: lectures/3-tensor-core.md
       - 4 Pipeline Ordering：Data Orchestration: lectures/4-pipeline-ordering.md
+      - 5 Towards Modern Networking System: lectures/5-modern-networking-system.md
 
 copyright: 内容版权归原讲者及原发布方所有；本站整理内容仅供学习交流。

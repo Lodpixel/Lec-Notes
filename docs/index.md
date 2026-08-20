@@ -14,6 +14,7 @@
 - [W.1 Parallel Programming with TileLang](lectures/w-1-parallel-programming-tilelang.md)（孔昊然，1:26:31）
 - [3 Tensor Core：从 mma.sync 到 tcgen05](lectures/3-tensor-core.md)（孙远航，2:40:11）
 - [4 Pipeline Ordering：Data Orchestration](lectures/4-pipeline-ordering.md)（卢怡霏，1:33:00）
+- [5 Towards Modern Networking System](lectures/5-modern-networking-system.md)（王志豪，2:45:15）
 
 ## 说明
 
