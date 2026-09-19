@@ -1,24 +1,24 @@
-# Lec Notes
+# AI Infra
 
-这里整理课内课程笔记与课外自学资料。
+这里整理北京大学未名超算队 × LCPU AI Infra Seminars 的课程讲座、学习笔记与完整讲课转录。
 
-## 课内
+## 讲次列表
 
-- [离散数学](课内/离散数学/index.md)
-- [概率统计](课内/概率统计/index.md)
-- [ICS](课内/ics/index.md)
-- [大学物理](课内/大学物理/index.md)
-
-## 课外自学
-
-- [AI Infra 系列讲座](课外自学/ai-infra/index.md)
+- [1.1 CUDA Programming Model](课外自学/ai-infra/1-1-cuda-programming-model.md)
+- [1.2 Triton/TileLang Tile Level Programming](课外自学/ai-infra/1-2-triton-tilelang.md)
+- [2.1 Memory Abstraction & Hierarchy](课外自学/ai-infra/2-1-memory-abstraction.md)
+- [2.2 FP32 GEMM Quick Walkthrough](课外自学/ai-infra/2-2-fp32-gemm.md)
+- [W.1 Parallel Programming with TileLang](课外自学/ai-infra/w-1-parallel-programming-tilelang.md)
+- [3. Tensor Core：从 mma.sync 到 tcgen05](课外自学/ai-infra/3-tensor-core.md)
+- [4. Pipeline Ordering：Data Orchestration](课外自学/ai-infra/4-pipeline-ordering.md)
+- [5. Towards Modern Networking System](课外自学/ai-infra/5-modern-networking-system.md)
 
 !!! info "阅读提示"
     可以使用页面顶部的搜索功能检索概念、术语和代码；每篇讲义右侧提供页内目录。
 
 ## 说明
 
-- AI Infra 讲座原发布于 B 站：[北京大学 Linux 俱乐部](https://space.bilibili.com/3546720858044654)。
+- 讲座原发布于 B 站：[北京大学 Linux 俱乐部](https://space.bilibili.com/3546720858044654)。
 - 转录以 B 站 AI 字幕或通义听悟逐字稿为底稿，按语义校订整理；原视频语言为中文，正文沿用中文。
 - 个别无法可靠听辨的位置已在各讲文末“听辨存疑与说明”中标出。
 - 内容版权归原讲者与原发布方所有，本整理仅供学习交流。
