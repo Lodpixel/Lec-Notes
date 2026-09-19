@@ -67,7 +67,7 @@ nav:
       - 大学物理: 课内/大学物理/index.md
   - 课外自学:
       - AI Infra:
-          - 总览: 课外自学/ai-infra/index.md
+          - 课程首页: 课外自学/ai-infra/index.md
           - 1.1 CUDA Programming Model: 课外自学/ai-infra/1-1-cuda-programming-model.md
           - 1.2 Triton/TileLang Tile Level Programming: 课外自学/ai-infra/1-2-triton-tilelang.md
           - 2.1 Memory Abstraction & Hierarchy: 课外自学/ai-infra/2-1-memory-abstraction.md
