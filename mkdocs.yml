@@ -60,14 +60,21 @@ extra_javascript:
 
 nav:
   - 首页: index.md
-  - AI Infra 系列讲座:
-      - 1.1 CUDA Programming Model: lectures/1-1-cuda-programming-model.md
-      - 1.2 Triton/TileLang Tile Level Programming: lectures/1-2-triton-tilelang.md
-      - 2.1 Memory Abstraction & Hierarchy: lectures/2-1-memory-abstraction.md
-      - 2.2 FP32 GEMM Quick Walkthrough: lectures/2-2-fp32-gemm.md
-      - W.1 Parallel Programming with TileLang: lectures/w-1-parallel-programming-tilelang.md
-      - 3 Tensor Core：从 mma.sync 到 tcgen05: lectures/3-tensor-core.md
-      - 4 Pipeline Ordering：Data Orchestration: lectures/4-pipeline-ordering.md
-      - 5 Towards Modern Networking System: lectures/5-modern-networking-system.md
+  - 课内:
+      - 离散数学: 课内/离散数学/index.md
+      - 概率统计: 课内/概率统计/index.md
+      - ICS: 课内/ics/index.md
+      - 大学物理: 课内/大学物理/index.md
+  - 课外自学:
+      - AI Infra:
+          - 总览: 课外自学/ai-infra/index.md
+          - 1.1 CUDA Programming Model: 课外自学/ai-infra/1-1-cuda-programming-model.md
+          - 1.2 Triton/TileLang Tile Level Programming: 课外自学/ai-infra/1-2-triton-tilelang.md
+          - 2.1 Memory Abstraction & Hierarchy: 课外自学/ai-infra/2-1-memory-abstraction.md
+          - 2.2 FP32 GEMM Quick Walkthrough: 课外自学/ai-infra/2-2-fp32-gemm.md
+          - W.1 Parallel Programming with TileLang: 课外自学/ai-infra/w-1-parallel-programming-tilelang.md
+          - 3. Tensor Core：从 mma.sync 到 tcgen05: 课外自学/ai-infra/3-tensor-core.md
+          - 4. Pipeline Ordering：Data Orchestration: 课外自学/ai-infra/4-pipeline-ordering.md
+          - 5. Towards Modern Networking System: 课外自学/ai-infra/5-modern-networking-system.md
 
 copyright: 内容版权归原讲者及原发布方所有；本站整理内容仅供学习交流。

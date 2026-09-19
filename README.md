@@ -7,6 +7,16 @@
 - 在线阅读：<https://lodpixel.github.io/Lec-Notes/>
 - 内容目录：[`docs/`](docs/)
 
+## 当前结构
+
+- **课内**
+  - 离散数学
+  - 概率统计
+  - ICS
+  - 大学物理
+- **课外自学**
+  - AI Infra
+
 ## 本地预览
 
 ```bash
