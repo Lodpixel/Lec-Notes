@@ -61,10 +61,12 @@ extra_javascript:
 nav:
   - 首页: index.md
   - 课内:
-      - 离散数学: 课内/离散数学/index.md
+      - 1844: 课内/1844/index.md
+      - 大学物理: 课内/大学物理/index.md
       - 概率统计: 课内/概率统计/index.md
       - ICS: 课内/ics/index.md
-      - 大学物理: 课内/大学物理/index.md
+      - 离散数学: 课内/离散数学/index.md
+      - 数据结构: 课内/数据结构/index.md
   - 课外自学:
       - AI Infra:
           - 课程首页: 课外自学/ai-infra/index.md
