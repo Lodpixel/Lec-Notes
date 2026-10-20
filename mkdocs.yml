@@ -68,6 +68,10 @@ nav:
       - 离散数学: 课内/离散数学/index.md
       - 数据结构: 课内/数据结构/index.md
   - 课外自学:
+      - 专题总览: 课外自学/index.md
+      - JetBrains:
+          - 专题首页: 课外自学/jetbrains/index.md
+          - Mellum 2 模型训练与代码智能: 课外自学/jetbrains/mellum-2-training.md
       - AI Infra:
           - 课程首页: 课外自学/ai-infra/index.md
           - 1.1 CUDA Programming Model: 课外自学/ai-infra/1-1-cuda-programming-model.md
